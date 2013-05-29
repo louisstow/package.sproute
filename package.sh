@@ -21,4 +21,8 @@ rm *.sprt
 rm build.sh
 cd ..
 
+echo $1 > version.txt
+
+rm -rf sproute/node_modules
+
 zip -r sproute * -x \*.git -x package\.sh -x \*.gitignore
