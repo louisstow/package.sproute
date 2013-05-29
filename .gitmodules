@@ -1,0 +1,6 @@
+[submodule "sproute"]
+	path = sproute
+	url = git@github.com:louisstow/sproute.git
+[submodule "docs"]
+	path = docs
+	url = git@github.com:louisstow/doc.sproute.io.git
