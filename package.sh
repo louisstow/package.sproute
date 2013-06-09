@@ -23,6 +23,4 @@ cd ..
 
 echo $1 > version.txt
 
-rm -rf sproute/node_modules
-
-zip -r sproute * -x \*.git -x package\.sh -x \*.gitignore
+zip -r sproute-$1.zip * -x \*.git -x package\.sh -x \*.gitignore -x sproute/node_modules
