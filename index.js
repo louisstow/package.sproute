@@ -1,3 +1,2 @@
 var Sproute = require("./sproute/app");
-
-new Sproute(".");
+new Sproute(__dirname);

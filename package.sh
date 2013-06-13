@@ -23,4 +23,4 @@ cd ..
 
 echo $1 > version.txt
 
-zip -r sproute-$1.zip * -x \*.git -x package\.sh -x \*.gitignore -x \*node_modules\*
+zip -r sproute-$1.zip * -x \*.zip -x \*.git -x package\.sh -x \*.gitignore -x \*node_modules\* -x \*examples\/sproute\*
